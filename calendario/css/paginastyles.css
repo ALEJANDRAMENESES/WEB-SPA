@@ -1,0 +1,86 @@
+body{
+    margin: 0 auto;
+    background-color: rgb(250, 247, 247);
+    max-width: 900px;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+}
+.nav{
+    width: 100%;/* ancho*/
+    height: 160px;/* alto*/
+    background-color:aqua/* color de fondo*/
+
+}
+nav ul li {
+
+    list-style-type: none;
+    display: inline-block ;
+    transition: 0.8s all;
+    padding: 18px 20px;
+}
+nav ul li:hover{/* cuando esta sobre un elemento  suceda algo*/
+    background-color: rgb(148, 247, 247);
+}
+.img-logo{
+    width: 180px; /*  ancho*/
+    padding: 20px;
+}
+nav ul{
+    padding-top: 90px; /*relleno superior*/
+    display: inline-flex;
+}
+nav ul li a{
+    text-decoration: none; /*decoracion de texto*/
+    color: black;/* color de letra*/
+}
+h1,h5,h6,figure, ul{
+    margin: 0;
+}
+img{
+    max-width: 100%;
+}
+/*estilos seccion 2*/
+.seccion2{
+    background-color: rgb(182, 183, 223);
+}
+.video{
+    width: 49%;
+    padding: 8px;
+}
+.texto{
+    width: 100%;
+    padding: 8px;
+}
+
+/*articles*/
+.seccion3{
+    background-color: rgb(182, 183, 223);
+}
+.img-tratamientos{
+    background-color: rgb(177, 121, 172);
+    width: 100px;
+    height: 100px !important
+
+}
+    
+    
+footer {
+	background-color:#54cceb;
+	height: 50%;
+  color: rgb(246, 248, 248);
+  padding: 15px;
+ 
+}
+
+
+.main1 { 
+  display:flex;
+  margin:0 auto;
+}
+
+a img:hover {
+    color: #f1eff1;
+}
+
+.img-tratamientos {
+    height: 250px;
+}
